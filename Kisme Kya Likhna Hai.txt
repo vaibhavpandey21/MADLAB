@@ -1,0 +1,60 @@
+1. Keyboard,Calculator:
+	setOnClickListener
+	EditText.getText().toString()
+	EditText.setText()
+
+2. Graphical primitives
+	Bitmap.createBitmap()
+	Canvas()
+	Paint()
+	
+	canvas.drawText()
+	canvas.drawRect()
+	canvas.drawArc()
+	canvas.drawCircle()
+
+	paint.setColor()
+	paint.setARGB()
+
+3. Database:
+	SQLiteDatabase
+	getWritableDatabase
+	db.insert()
+	db.delete()
+	db.update()
+	db.execSQL()
+
+4. Multithreading
+	new Thread(new Runnable(){})
+
+	runOnUiThread()
+	Thread.sleep()
+	
+5. GPS
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> 
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	Location Listener
+	Loction Manager
+
+6. SD Card
+	read external storage permission
+	write external permission storage permission
+	File Output Stream Creation
+	File Input Stream Creation
+
+7. SMS
+	give SMS access permission
+	import SMS Manager
+	SmsManager manager = SmsManager.getDefault(); 
+	manager.sendTextMessage(number, null, message, null, null);
+
+8. Alarm CLock
+	Timer Function
+	Scheduled at fixed rate
+	counter
+	media player
+
+9. WebPage
+	Webview CLient
+	simpleWebView.loadData(customHtml, "text/html", "UTF-8");
+	simpleWebView.loadUrl(url);
